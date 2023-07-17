@@ -1,26 +1,24 @@
+//? Create customized Head with appropriate meta tags
 import { Head } from "$fresh/runtime.ts";
-import { useSignal } from "@preact/signals";
-import Counter from "../islands/Counter.tsx";
+//? Components
+import { Features } from "../components/UI/Features.tsx";
+import { Hero } from "../components/UI/Hero.tsx";
+import { Layout } from "../components/base/Layout.tsx";
 
 export default function Home() {
-  const count = useSignal(3);
   return (
     <>
       <Head>
-        <title>Fresh App</title>
-      </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <img
-          src="/logo.svg"
-          class="w-32 h-32"
-          alt="the fresh logo: a sliced lemon dripping with juice"
+        <title>Multiplayer Tic Tac Toe</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+          rel="stylesheet"
         />
-        <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the
-          ./routes/index.tsx file, and refresh.
-        </p>
-        <Counter count={count} />
-      </div>
+      </Head>
+      <Layout>
+        <Hero />
+        <Features />
+      </Layout>
     </>
   );
 }
