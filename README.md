@@ -1,16 +1,15 @@
-# Fresh project
+# Tic Tac Toe Multiplayer
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+Play Tic Tac Toe competitively against other players and rank amongst the best.
 
-### Usage
+Head to [https://tictactoe.deno.dev/](https://tictactoe.deno.dev/) to create
+your account and start playing against others.
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+### Notable Contributions
 
-Then start the project:
+Thanks to [DjDeveloperr](https://github.com/DjDeveloperr) for allowing me to
+take the [https://tictactoe.deno.dev/](https://tictactoe.deno.dev/) domain to
+host this project.
 
-```
-deno task start
-```
-
-This will watch the project directory and restart as necessary.
+If you wish to contribute, feel free to contact me on the
+[Deno Discord](https://discord.com/invite/deno), I also go by the same @ there.
