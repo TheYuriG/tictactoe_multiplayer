@@ -10,10 +10,6 @@ export default function Home() {
     <>
       <Head>
         <title>Multiplayer Tic Tac Toe</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <Layout>
         <Hero />
