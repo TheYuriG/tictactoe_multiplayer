@@ -6,7 +6,7 @@ import { Footer } from "./Footer.tsx";
 export function Layout({ children }: { children: JSX.Element[] }) {
   return (
     <body
-      class="min-h-[100dvh] bg-gradient-to-b from-blue-400 to-blue-500"
+      class="min-h-[100dvh] w-[100dvw] overflow-x-hidden custom-scrollbar bg-gradient-to-b from-blue-400 to-blue-500"
       style="font-family: 'Montserrat', sans-serif;"
     >
       <Header />
